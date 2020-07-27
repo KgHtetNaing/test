@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Football point</title>
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('button').click(function(e){
+				e.preventDefault();
+				var wins=parseInt($('#wins').val());
+				var draws=parseInt($('#draws').val());
+				var losses=parseInt($('#losses').val());
+				var a=wins*3;
+				var b=losses*0;
+				var total=a+draws+b;
+				$('#total').val(total);
+			})
+		})
+	</script>
+</head>
+<body>
+	<form>
+		<label for="wins">Wins</label><input type="number" name="wins" id="wins"><br>
+		<label for="draws">Draws</label><input type="number" name="draws" id="draws"><br>
+		<label for="losses">Losses</label><input type="number" name="losses" id="losses"><br>
+		<button>Calculate</button>
+		<label>Total Point</label><input type="number" name="total" id="total" readonly="readonly">
+	</form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+	padding:0;
+	margin: 0;
+}
+textarea#searchbar{
+	width: 580px;
+	height: 30px;
+	margin-left: 0px;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+
+#icon{
+	position: absolute;
+	top: 15px;
+	left: 580px;
+}
+
+#menu{
+	position: absolute;
+	top: 15px;
+	left:1300px;
+}
+
+textarea.bodyarea{
+	width: 600px;
+	border-top-right-radius: 15px;
+	border-top-left-radius:  15px;
+	height: 40px;
+}
+
+textarea.bodyarea1{
+	width: 600px;
+	height: 40px;
+	margin-top: -11px;
+}

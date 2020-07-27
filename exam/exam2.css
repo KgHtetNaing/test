@@ -1,0 +1,18 @@
+h2.navhead{
+	float: left;
+	color: blue;
+}
+
+.navlogout{
+
+	float: right;
+	color: blue;
+ 	
+
+}
+
+#tablebutton{
+	color: gray;
+	border-color: gray;
+	background-color: white;
+}

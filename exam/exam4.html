@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sum</title>
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('button').click(function(){
+				var firstnum=parseInt ($('#firstnum').val());
+				var secondnum=parseInt ($('#secondnum').val());
+				var total= firstnum+secondnum;
+				$('#total').val(total);
+			})
+		})
+	</script>
+</head>
+
+<body>
+	<label for="firstnum">First Number</label> <input type="number" name="firstnumber" id="firstnum"><br>
+	<label for="secondnum">Second Number</label><input type="number" name="secondnumber" id="secondnum"><br>
+	<button >Sum</button>
+	<label>Total</label><input type="number" name="total" id="total" readonly="readonly">
+</body>
+</html>
